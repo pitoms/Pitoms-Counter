@@ -1,0 +1,8 @@
+.text {
+  display: flex;
+  align-items: center;
+  margin-left: 25vw;
+  width: 50vw;
+  max-width: 99%;
+  height: 90vh;
+}
