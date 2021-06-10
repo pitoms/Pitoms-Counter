@@ -12,7 +12,8 @@ function App() {
 
     e.preventDefault();
 
-    if (e.key === "C") {
+    if (e.key === "C" || e.key === "c") {
+      // key 'c' becomes 'C' when holding shift
       document.getElementById("overlay").style.display = "block";
     }
   };
