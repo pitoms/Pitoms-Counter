@@ -1,14 +1,17 @@
 .text {
-  display: flex;
-  align-items: center;
-  margin-left: 25vw;
-  width: 50vw;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 38vw;
   max-width: 99%;
   height: 90vh;
   border: none;
   outline: none;
   border-radius: 0.05em;
-  padding-top: 1em;
+  box-shadow: 1px 0px 4px 0px rgba(164, 89, 89, 0.75);
+  -webkit-box-shadow: 1px 0px 4px 0px rgba(164, 89, 89, 0.75);
+  -moz-box-shadow: 1px 0px 4px 0px rgba(164, 89, 89, 0.75);
+  padding: 6em;
 }
 
 .text:active {
@@ -16,5 +19,8 @@
 }
 
 .editorArea {
+  display: flex;
+  flex-direction: row;
+  padding-top: 2em;
   background-color: #f8f9fa;
 }
