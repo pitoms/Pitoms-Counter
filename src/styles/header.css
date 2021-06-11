@@ -9,6 +9,9 @@
 
 .logo {
   display: inline-flex;
+  width: 1.5em;
+  padding-left: 1em;
+  padding-right: 1em;
 }
 .logo:hover {
   cursor: pointer;
@@ -27,6 +30,7 @@ li {
   color: black;
   margin: 0.25em;
   padding: 0.25em;
+  padding-bottom: 0;
 }
 
 li:hover {
@@ -88,4 +92,11 @@ button:hover {
 
 .right {
   align-items: end;
+}
+
+hr {
+  margin: 0 0 0 0;
+  height: 1px;
+  background-color: #dadce0;
+  border: none;
 }
