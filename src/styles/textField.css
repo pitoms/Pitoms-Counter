@@ -5,4 +5,16 @@
   width: 50vw;
   max-width: 99%;
   height: 90vh;
+  border: none;
+  outline: none;
+  border-radius: 0.05em;
+  padding-top: 1em;
+}
+
+.text:active {
+  border: none;
+}
+
+.editorArea {
+  background-color: #f8f9fa;
 }

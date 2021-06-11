@@ -1,7 +1,13 @@
 import styling from "../styles/textField.css";
 
 function TextField() {
-  return <textarea className="text"></textarea>;
+  return (
+    <>
+      <div className="editorArea">
+        <textarea className="text"></textarea>
+      </div>
+    </>
+  );
 }
 
 export default TextField;
