@@ -12,11 +12,9 @@ function App() {
     }
 
     e.preventDefault();
-
+    // key 'c' becomes 'C' when holding shift
     if (e.key === "C" || e.key === "c") {
       let counts = count(document.getElementsByClassName("text")[0].value);
-
-      // key 'c' becomes 'C' when holding shift
       document.getElementById("overlay").style.display = "block";
       document.getElementById("wordsCount").innerText = counts.words;
       document.getElementById("charsCount").innerText = counts.chars;
