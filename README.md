@@ -1,7 +1,7 @@
 # Pitoms-Counter
 
 “2. Word Count Challenge”
-A google docs GUI clone with word counting feature. Built fast for the TTP application process.
+A google docs GUI clone with word counting feature. Built fast for the TTP application process. Latest version deployed here: https://pitoms-gdoc-counter.herokuapp.com/
 
 # Getting Started with Create React App
 
