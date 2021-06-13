@@ -11,9 +11,9 @@ Pitom Saha: #2 Word Count Challenge
 > Clone this repo to your local machine, and `npm i` from within the "Pitoms-Counter" directory.
 > Run `npm start` and a browser tab will open with the web app.
 
-### Dependencies
+## Requirements
 
-* Node 
+* Node 0.10.x
 
 ### Installing
 
@@ -24,5 +24,7 @@ Pitom Saha: #2 Word Count Challenge
 * npm start
 * Step-by-step bullets
 ```
-cd
+cd Pitoms-counter
+npm install
+npm start
 ```
