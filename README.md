@@ -6,9 +6,10 @@ Pitom Saha: #2 Word Count Challenge
 ## App is deployed here:
 
 [Pitom's Counter](https://pitoms-gdoc-counter.herokuapp.com/)
-Latest version deployed here: https://pitoms-gdoc-counter.herokuapp.com/  
 
-## Getting Started
+## Usage
+> Clone this repo to your local machine, and `npm i` from within the "Pitoms-Counter" directory.
+> Run `npm start` and browser tab will open with the web app.
 
 ### Dependencies
 
