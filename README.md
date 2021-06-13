@@ -1,31 +1,39 @@
 # Pitoms-Counter
 
-“2. Word Count Challenge”
-A google docs GUI clone with word counting feature. Built fast for the TTP application process. Latest version deployed here: https://pitoms-gdoc-counter.herokuapp.com/
+Pitom Saha: #2 Word Count Challenge  
+>A google docs GUI clone with word counting feature. Built fast for the TTP application process.  
 
+## App is deployed here:
 
-## Available Scripts
+[Pitom's Counter](https://pitoms-gdoc-counter.herokuapp.com/)
 
-In the project directory, you can run:
+## Usage
+Clone this repo to your local machine, and `npm install` from within the "Pitoms-Counter" directory.
+Run `npm start` and a browser tab will open with the web app.
 
-### `npm start`
+## Requirements
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* Node 0.10.x
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Executing program
 
+* Navigate to root directory
+* Install dependencies using `npm install`
+* Run web server using `npm start`
+```
+cd Pitoms-counter
+npm install
+npm start
+```
 
-### `npm run build`
+## Approach
+1. Define & style components -> Header, TextArea, CountBox.
+2. Solve the word count problem:
+  a. Create test cases to understand expected output.
+  b. Find correct counts from the real [Google Docs app] https://docs.google.com/document/u/0/ and [CountWordsWorth]http://countwordsworth.com/ .
+  c. Understand how the computer sees blocks of text by using a [non-printable character viewer] https://www.soscisurvey.de/tools/view-chars.php .
+  
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-
+## Future improvements
+Adding a testing framework, like Jest would be a great way to speed up the counter logic development. As of now the counter functionality is not as robust as Google Docs. (Example: My sentence counter simply checks for number of periods, exclamation marks and question marks, regardless of if they occur after a single, or multiple words. )
 
