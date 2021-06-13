@@ -35,5 +35,5 @@ npm start
   
 
 ## Future improvements
-Adding unit testing on the counter logic would be a great way to speed up development. As of now the counter functionality is not as robust as Google Docs. (Example: My sentence counter simply checks for number of periods, exclamation marks and question marks, regardless of if they occur after a single, or multiple words. )
+Adding a testing framework, like Jest would be a great way to speed up the counter logic development. As of now the counter functionality is not as robust as Google Docs. (Example: My sentence counter simply checks for number of periods, exclamation marks and question marks, regardless of if they occur after a single, or multiple words. )
 
