@@ -24,8 +24,13 @@
   display: flex;
   flex-direction: column;
   margin-top: 28vh;
-  margin-left: 41vw;
-  width: 18vw;
+  margin-left: auto;
+  margin-right: auto;
+  width: 315.21px;
+  padding: 0.75em;
+  border-radius: 8px;
+  max-width: calc(100% - 32px);
+  min-width: 200px;
 }
 
 .boxHeader {
@@ -37,7 +42,11 @@
   display: inline;
   width: 98%;
   height: 10%;
-  margin-left: 5%;
+  margin: 0 0 0 0;
+  padding-right: 1em;
+  padding-top: 0.5em;
+  padding-left: 0.25em;
+  font-size: 1.25em;
 }
 
 .close {
@@ -48,5 +57,23 @@
 }
 
 #countsList {
-  margin-left: 10%;
+  display: block;
+  padding: 1em;
+  padding-left: 0.35em;
+  font-size: 0.9em;
+}
+
+#countsList span {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+#bigramsCount {
+  overflow-y: auto;
+  max-height: 20vh;
+}
+
+#bigramsCount span {
+  display: block;
+  padding-left: 1em;
 }

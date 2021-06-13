@@ -3,6 +3,7 @@ import count from "../counter";
 
 const closeDialog = () => {
   document.getElementById("overlay").style.display = "none";
+  document.getElementById("bigramsCount").innerHTML = "";
 };
 
 function CountDialog() {
@@ -20,18 +21,21 @@ function CountDialog() {
             <p>
               Words <span id="wordsCount"></span>
             </p>
+            <hr></hr>
             <p>
               Characters <span id="charsCount"></span>
             </p>
+            <hr></hr>
             <p>
               Sentences <span id="sentencesCount"></span>
             </p>
+            <hr></hr>
             <p>
               Paragraphs <span id="paragraphsCount"></span>
             </p>
-            <p>
-              Bigrams <span id="bigramsCount"></span>
-            </p>
+            <hr></hr>
+            <p>Bigrams</p>
+            <div id="bigramsCount"></div>
           </div>
         </div>
       </div>
