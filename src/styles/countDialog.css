@@ -26,9 +26,9 @@
   margin-top: 28vh;
   margin-left: auto;
   margin-right: auto;
-  width: 13vw;
+  width: 315.21px;
   padding: 0.75em;
-  border-radius: 0.25em;
+  border-radius: 8px;
   max-width: calc(100% - 32px);
   min-width: 200px;
 }
@@ -66,4 +66,14 @@
 #countsList span {
   margin-left: auto;
   margin-right: 0;
+}
+
+#bigramsCount {
+  overflow-y: auto;
+  max-height: 20vh;
+}
+
+#bigramsCount span {
+  display: block;
+  padding-left: 1em;
 }

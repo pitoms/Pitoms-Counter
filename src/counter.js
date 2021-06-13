@@ -20,7 +20,7 @@ export function count(string) {
     }
 
     // Word Count
-    if (char !== "," && char !== "." && char !== "\n" && char !== "\r" && char !== "!" && char !== "?" && char !== " ") {
+    if (char !== "+" && char !== "-" && char !== "," && char !== "." && char !== "\n" && char !== "\r" && char !== "!" && char !== "?" && char !== " ") {
       word += string[i];
     } else if (word !== "") {
       // A "," followed by a space will cause an empty string to appear as a word
@@ -47,7 +47,7 @@ export function count(string) {
   // Bigrams Count
   // Creates a histogram with 2 adjacent words as keys, and their frequency as the value.
   let histo = new Map();
-  for (let i = 0; i < words.length; i++) {
+  for (let i = 1; i < words.length; i++) {
     let wordA = words[i - 1];
     let wordB = words[i];
 

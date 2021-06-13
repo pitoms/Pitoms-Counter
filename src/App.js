@@ -3,6 +3,8 @@ import Header from "./components/Header";
 import CountDialog from "./components/CountDialog";
 import count from "./counter";
 import styling from "./App.css";
+import React from "react";
+import ReactDOM from "react-dom";
 
 function App() {
   // On ctrl+shift+c display overlay with word count.
@@ -21,8 +23,13 @@ function App() {
       document.getElementById("charsCount").innerText = counts.chars;
       document.getElementById("sentencesCount").innerText = counts.sentences;
       document.getElementById("paragraphsCount").innerText = counts.paragraphs;
-      document.getElementById("bigramsCount").innerText = counts.bigrams;
-      console.log(counts.bigrams);
+
+      let bigramParent = document.getElementById("bigramsCount");
+      counts.bigrams.forEach((count, bigram) => {
+        let row = document.createElement("span");
+        row.innerText = `${bigram} ${count}`;
+        bigramParent.appendChild(row);
+      });
     }
   };
 
