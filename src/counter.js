@@ -59,7 +59,7 @@ export function count(string) {
   counts.bigrams = histo;
 
   // Count the first paragraph, if there were any
-  if (counts.paragraphs > 0) {
+  if (string.length > 0) {
     counts.paragraphs += 1;
   }
 
