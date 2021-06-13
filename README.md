@@ -27,7 +27,7 @@ npm start
 ```
 
 ## Approach
-1. Define & styling components -> Header, TextArea, CountBox.
+1. Define & style components -> Header, TextArea, CountBox.
 2. Solve the word count problem:
   a. Create test cases to understand expected output.
   b. Find correct counts from the real [Google Docs app] https://docs.google.com/document/u/0/ and [CountWordsWorth]http://countwordsworth.com/ .
