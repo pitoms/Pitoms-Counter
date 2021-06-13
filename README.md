@@ -15,14 +15,11 @@ Pitom Saha: #2 Word Count Challenge
 
 * Node 0.10.x
 
-### Installing
+## Executing program
 
-* Clone this repo, and run "npm i" from within the directory.
-
-### Executing program
-
-* npm start
-* Step-by-step bullets
+* Navigate to root directory
+* Install dependencies using `npm i`
+* Run web server using `npm start`
 ```
 cd Pitoms-counter
 npm install
