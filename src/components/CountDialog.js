@@ -20,15 +20,19 @@ function CountDialog() {
             <p>
               Words <span id="wordsCount"></span>
             </p>
+            <hr></hr>
             <p>
               Characters <span id="charsCount"></span>
             </p>
+            <hr></hr>
             <p>
               Sentences <span id="sentencesCount"></span>
             </p>
+            <hr></hr>
             <p>
               Paragraphs <span id="paragraphsCount"></span>
             </p>
+            <hr></hr>
             <p>
               Bigrams <span id="bigramsCount"></span>
             </p>

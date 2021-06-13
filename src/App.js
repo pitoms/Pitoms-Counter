@@ -14,6 +14,7 @@ function App() {
     e.preventDefault();
     // key 'c' becomes 'C' when holding shift
     if (e.key === "C" || e.key === "c") {
+      console.log(document.getElementsByClassName("text")[0].value);
       let counts = count(document.getElementsByClassName("text")[0].value);
       document.getElementById("overlay").style.display = "block";
       document.getElementById("wordsCount").innerText = counts.words;
@@ -21,6 +22,7 @@ function App() {
       document.getElementById("sentencesCount").innerText = counts.sentences;
       document.getElementById("paragraphsCount").innerText = counts.paragraphs;
       document.getElementById("bigramsCount").innerText = counts.bigrams;
+      console.log(counts.bigrams);
     }
   };
 
