@@ -8,7 +8,7 @@ Pitom Saha: #2 Word Count Challenge
 [Pitom's Counter](https://pitoms-gdoc-counter.herokuapp.com/)
 
 ## Usage
-> Clone this repo to your local machine, and `npm i` from within the "Pitoms-Counter" directory.
+> Clone this repo to your local machine, and `npm install` from within the "Pitoms-Counter" directory.
 > Run `npm start` and a browser tab will open with the web app.
 
 ## Requirements
@@ -18,7 +18,7 @@ Pitom Saha: #2 Word Count Challenge
 ## Executing program
 
 * Navigate to root directory
-* Install dependencies using `npm i`
+* Install dependencies using `npm install`
 * Run web server using `npm start`
 ```
 cd Pitoms-counter
